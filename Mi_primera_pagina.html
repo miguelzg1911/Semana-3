@@ -77,7 +77,7 @@
             <li><a href="Contacto.html" target="_blank">Contacto</a></li>
         </ul>
     </nav>
-    <h2>Formulario de contacto:</h2>
+    <h2>Formulario 1:</h2>
     <form action="#" method="post">
         <label for="nombre">Nombre:</label><br>
         <input type="text" id="nombre" name="nombre" required><br><br>
@@ -90,5 +90,102 @@
 
         <input type="submit" value="Enviar">
     </form>
+    <h2>Formulario 2:</h2>
+    <form action="#" method="post">
+        <label for="nombre"><strong>Nombre:</strong></label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo"><strong>Correo electrónico:</strong></label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="contraseña"><strong>Contraseña:</strong></label><br>
+        <input type="password" id="contraseña" name="contraseña" required><br><br>
+
+        <label for="edad"><strong>Edad:</strong></label><br>
+        <input type="number" id="edad" name="edad" required><br><br>
+
+        <label for="fecha de nacimiento"><strong>Fecha de nacimiento:</strong></label><br>
+        <input type="date" id="fecha de nacimiento" name="fecha de nacimiento"><br><br>
+
+        <label for="genero"><strong>Genero:</strong></label><br><br>
+
+        <label for="masculino"> Masculino</label><br>
+        <input type="radio" id="masculino" name="genero" value="Masculino"><br><br>
+
+        <label for="femenino"> Femenino</label><br>
+        <input type="radio" id="femenino" name="genero" value="Femenino"><br><br>
+
+        <label for="ciudad"><strong>Ciudad:</strong></label>
+        <select name="ciudad" id="ciudad">
+            <option value="Bogota">Bogota</option>
+            <option value="Medellin">Medellin</option>
+            <option value="Cali">Cali</option>
+            <option value="Barranquilla">Barranquilla</option>
+            <option value="Cucuta">Cucuta</option>
+        </select><br><br>
+
+        <label for="aceptar_terminos">
+            He leído y acepto los <a href="#">Términos y Condiciones</a>.
+        </label>
+        <input type="checkbox" id="aceptar_terminos" name="aceptar_terminos" required>
+        <br><br>
+        <button>Enviar</button><br><br>
+    </form>
+    <h2>Perfil:</h2>
+    <img src="https://img.freepik.com/vector-premium/icono-perfil-avatar-estilo-plano-ilustracion-vectorial-perfil-usuario-masculino-fondo-aislado-concepto-negocio-signo-perfil-masculino_157943-38764.jpg?w=360" alt="">
+    <p>Mi nombre es Miguel Angel, tengo 18 años y soy un coder de Riwi. Estoy en el proceso del entrenamiento como desarrollador 
+        y tengo las ganas y la actitud por aprender y seguir adelante</p>
+    <ul><h3>Lista de Hobbies:</h3>
+        <li>Me gusta tocar la guitarra y otros instrumentos</li>
+        <li>Me gustan los videojuegos y en un futuro me gustaria aprender a desarrollarlos</li>
+        <li>Me gusta la cocina, tambien me gustaria estudiar sobre eso</li>
+    </ul>
+    <iframe width="600" height="300" src="https://www.youtube.com/embed/kPa7bsKwL-c" frameborder="0"></iframe>
+    <ul><h3>Redes sociales:</h3>
+        <li><a href="https://www.instagram.com/miguel_zapatica?igsh=czlwYndtOWZybjMw" target="_blank">Instagram</a></li>
+    </ul>
+    <h2>Inicio de sesion:</h2>
+    <form action="/login" method="post">
+        <label for="Usuario">Nombre de Usuario:</label><br>
+        <input type="text" maxlength="12" id="Usuario" name="Usuario" required><br><br>
+
+        <label for="Contraseña">Contraseña:</label><br>
+        <input type="password" id="Contraseña" name="Contraseña" required><br><br>
+
+        <input type="submit" value="Iniciar Sesión">
+    </form>
+    <h2>Tabla de productos:</h2>
+    <table border="1">
+        <tr>
+            <th>Nombre del producto</th>
+            <th>Precio</th>
+            <th>Imagen del producto</th>
+            <th>Adquirir</th>
+        </tr>
+        <tr>
+            <td>PlayStation 5</td>
+            <td>$2'500.000</td>
+            <td><img width="150" height="150" src="https://cdnx.jumpseller.com/tienda-gamer-medellin/image/45051776/resize/610/610?1706572153" alt=""></td>
+            <td><button>Comprar</button></td>
+        </tr>
+        <tr>
+            <td>Portatil Gamer</td>
+            <td>$3'500.000</td>
+            <td><img width="150" height="150" src="https://compucentro.co/wp-content/uploads/Nitro5_AN515-57_Bl_Bk_modelmain-1.png" alt=""></td>
+            <td><button>Comprar</button></td>
+        </tr>
+        <tr>
+            <td>Televisor LG</td>
+            <td>$1'700.000</td>
+            <td><img width="150" height="150" src="https://olimpica.vtexassets.com/arquivos/ids/1153806/5258287_1.jpg?v=638306074002930000" alt=""></td>
+            <td><button>Comprar</button></td>
+        </tr>
+        <tr>
+            <td>Silla Gamer</td>
+            <td>$700.000</td>
+            <td><img width="150" height="150" src="https://gtech.systems/wp-content/uploads/2020/09/4-removebg-preview-430x430.png" alt=""></td>
+            <td><button>Comprar</button></td>
+        </tr>
+    </table>
 </body>
 </html
